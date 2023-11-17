@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 'Testing Github actions'
-        run: pwd
+      - name: 'Testing folder content'
+        run: ls
         
       - name: 'Testing printing'
         run: echo Noha
